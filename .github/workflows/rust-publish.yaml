@@ -3,7 +3,9 @@ name: Crates.io publish
 on:
   push:
     tags:
-      - "v*.*.*"
+    - "v*.*.*"
+  workflow_dispatch:
+  
 
 defaults:
   run:
