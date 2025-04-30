@@ -18,6 +18,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
+      - name: Download submodules
+        run: git submodule update --init --recursive
+        shell: bash
+
       - name: Publish keystone-sys on crates.io
         uses: actions-rs/cargo@v1
         with:
