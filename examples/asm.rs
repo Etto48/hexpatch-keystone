@@ -1,5 +1,5 @@
-extern crate keystone;
-use keystone::*;
+extern crate hexpatch_keystone;
+use hexpatch_keystone::*;
 
 fn main() {
     let engine =

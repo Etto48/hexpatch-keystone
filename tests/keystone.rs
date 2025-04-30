@@ -1,17 +1,17 @@
-extern crate keystone;
+extern crate hexpatch_keystone;
 
-use keystone::{Arch, Error, Keystone, Mode, OptionType, OptionValue};
+use hexpatch_keystone::{Arch, Error, Keystone, Mode, OptionType, OptionValue};
 
 #[test]
 fn version() {
-    let (major, minor) = keystone::version();
-    assert_eq!((major, minor), keystone::bindings_version());
+    let (major, minor) = hexpatch_keystone::version();
+    assert_eq!((major, minor), hexpatch_keystone::bindings_version());
 }
 
 #[test]
 fn arch_supported() {
-    assert_eq!(keystone::arch_supported(Arch::ARM), true);
-    assert_eq!(keystone::arch_supported(Arch::X86), true);
+    assert_eq!(hexpatch_keystone::arch_supported(Arch::ARM), true);
+    assert_eq!(hexpatch_keystone::arch_supported(Arch::X86), true);
 }
 
 #[test]

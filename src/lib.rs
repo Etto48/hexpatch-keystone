@@ -16,7 +16,7 @@
 //! }
 //! ```
 
-extern crate keystone_sys as ffi;
+extern crate hexpatch_keystone_sys as ffi;
 extern crate libc;
 
 use std::{
