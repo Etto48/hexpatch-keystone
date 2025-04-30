@@ -1,3 +1,4 @@
 [submodule "keystone-sys/keystone"]
 	path = keystone-sys/keystone
 	url = https://github.com/Etto48/keystone
+	tag = v0.9.2
