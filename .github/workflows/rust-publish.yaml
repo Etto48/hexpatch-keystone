@@ -29,6 +29,7 @@ jobs:
         with:
           command: publish
           args: --token ${{ secrets.CARGO_TOKEN }} --manifest-path keystone-sys/Cargo.toml
+        continue-on-error: true
 
       - name: Publish keystone on crates.io
         uses: actions-rs/cargo@v1
