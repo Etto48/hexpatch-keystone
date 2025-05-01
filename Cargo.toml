@@ -1,6 +1,6 @@
 [package]
 name = "hexpatch-keystone"
-version = "0.9.2"
+version = "0.9.3"
 authors = [
   "Remco Verhoef <remco.verhoef@dutchcoders.io>",
   "Tasuku SUENAGA a.k.a. gunyarakun <tasuku-s-github@titech.ac>"

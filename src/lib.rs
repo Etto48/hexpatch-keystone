@@ -3,8 +3,8 @@
 //! Rust bindings by Remco Verhoef <remco@dutchcoders.io>, 2016
 //!
 //! ```rust
-//! extern crate keystone;
-//! use keystone::{Keystone, Arch, Mode, OptionType, OptionValue};
+//! extern crate hexpatch_keystone;
+//! use hexpatch_keystone::{Keystone, Arch, Mode, OptionType, OptionValue};
 //!
 //! fn main() {
 //!     let engine = Keystone::new(Arch::X86, Mode::MODE_32)
