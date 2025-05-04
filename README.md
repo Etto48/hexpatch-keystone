@@ -1,5 +1,6 @@
-# keystone-rs
+# Hexpatch Keystone
 Rust bindings for the [keystone](http://www.keystone-engine.org/) engine.
+These bindings are for a [custom version of keystone](https://github.com/Etto48/keystone)
 
 ## Sample
 ```rust
