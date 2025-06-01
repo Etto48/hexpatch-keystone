@@ -1,6 +1,6 @@
 [package]
 name = "hexpatch-keystone"
-version = "0.9.4-1"
+version = "0.9.4"
 authors = [
   "Remco Verhoef <remco.verhoef@dutchcoders.io>",
   "Tasuku SUENAGA a.k.a. gunyarakun <tasuku-s-github@titech.ac>"
@@ -16,7 +16,7 @@ include = [
 
 [dependencies]
 libc = "0.2"
-hexpatch-keystone-sys = { path = "keystone-sys", version = "0.9.4-1" }
+hexpatch-keystone-sys = { path = "keystone-sys", version = "0.9.4" }
 
 [features]
 default = []
